@@ -1,0 +1,23 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Create Vue Navbar and Home Component",
+			"deadline": "This dashboard will be completed at least 3 days",
+			"completed": true
+		},
+		{
+			"id": 2,
+			"title": "Create Vue Home Page",
+			"deadline": "This will be completed at least 3 days",
+			"completed": true
+		},
+		{
+			"title": "hdhdfhfhghgh",
+			"deadline": "jdhjfhghhjhjhjhj",
+			"complete": false,
+			"id": 3,
+			"completed": true
+		}
+	]
+}
