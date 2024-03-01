@@ -13,11 +13,10 @@
 			"completed": true
 		},
 		{
-			"title": "hdhdfhfhghgh",
-			"deadline": "jdhjfhghhjhjhjhj",
-			"complete": false,
 			"id": 3,
-			"completed": true
+			"title": "Salom",
+			"deadline": "tugash kere 1 oyda",
+			"complete": false
 		}
 	]
 }
