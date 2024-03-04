@@ -1,18 +1,15 @@
 <template>
-	<div>
-		<ul>
-			<li v-for="project of projects" :key="project.id">
-				<h2>{{ project.id }}</h2>
-				<h2>{{ project.title }}</h2>
-				<h2>{{ project.deadline }}</h2>
-			</li>
-		</ul>
+	<div class="home">
+		<div v-for="project of projects" :key="project.id">
+			<SingleProject :project="project" />
+		</div>
 	</div>
 </template>
 
 <script setup>
 import { onMounted, ref } from 'vue';
 import axios from 'axios';
+import SingleProject from '@/components/SingleProject.vue';
 
 let projects = ref([]);
 
@@ -25,6 +22,13 @@ onMounted(async () => {
 	// 	console.log(element);
 	// }
 });
+const deleteD = async () => {
+	return await axios.delete(`http://localhost:3000/projects/${project.id}`);
+};
+
+const editP = () => {
+	console.log('Salom');
+};
 </script>
 
 <style lang="scss" scoped></style>
