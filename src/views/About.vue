@@ -25,6 +25,14 @@
 					value="Qarshi"
 				/>Qarshi</label
 			>
+			<label for=""
+				><input
+					id="Moscow"
+					v-model="rest"
+					type="checkbox"
+					value="Qarshi"
+				/>Qarshi</label
+			>
 			<button type="submit">Submit</button>
 		</form>
 	</div>
