@@ -22,12 +22,12 @@
 					id="Moscow"
 					v-model="rest"
 					type="checkbox"
-					value="Qarshi"
-				/>Qarshi</label
+					value="Moscow"
+				/>Moscow</label
 			>
 			<label for=""
 				><input
-					id="Moscow"
+					id="Qarshi"
 					v-model="rest"
 					type="checkbox"
 					value="Qarshi"
