@@ -13,6 +13,12 @@ const routes = [
 		name: 'about',
 		component: About,
 	},
+	},
+	{
+		path: '/contact',
+		name: 'contact',
+		component: Contact,
+	},
 ];
 
 const router = createRouter({
